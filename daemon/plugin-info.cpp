@@ -11,6 +11,7 @@ PluginInfo::PluginInfo(QString& fileName)
     char*       str = NULL;
     GError*     error = NULL;
     GKeyFile*   pluginFile = NULL;
+    int         test1 = 1;
 
     mPriority = 0;
     mActive = false;
